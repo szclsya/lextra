@@ -1,0 +1,7 @@
+PKGNAME=emacs-pgtk
+PKGSEC=editors
+PKGDEP="alsa-lib desktop-file-utils giflib gnutls gpm gtk-3 hicolor-icon-theme
+        jansson libotf librsvg m17n-lib harfbuzz"
+PKGDES="Emacs with pure GTK implementation, for Wayland use."
+
+AUTOTOOLS_AFTER="--with-pgtk --with-cairo --with-modules"

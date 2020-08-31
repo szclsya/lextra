@@ -1,0 +1,3 @@
+VER=20200830
+GITSRC="https://github.com/masm11/emacs"
+GITCO="f9c8f23d25024e91ae7216df51c56446f72ad403"
